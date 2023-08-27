@@ -16,12 +16,20 @@
   }
 }
 
+.back {
+  background-color: rgba(128, 128, 128, 0.308);
+}
+
+.color-success {
+  background-color: rgba(0, 128, 0, 0.171);
+}
+
+.color-primary {
+  background-color: rgba(0, 0, 255, 0.212);
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ 
+  padding:10px 10px;
+  background-color: rgba(128, 128, 128, 0.068);
 }
